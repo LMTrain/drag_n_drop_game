@@ -89,7 +89,7 @@ function App() {
                         {...provided.droppableProps}
                         ref={provided.innerRef}
                         style={{
-                          background: snapshot.isDraggingOver ? 'lightblue' : 'lightgrey',
+                          background: snapshot.isDraggingOver ? 'lightblue' : 'lightgreen',
                           padding: 4,
                           width: 250,
                           minHeight: 450
